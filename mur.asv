@@ -1,0 +1,24 @@
+classdef mur
+    %MUR Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties
+        position array %vecteur à deux composantes, chacune un vecteur à deux composantes (des points quoi)
+        perm_rel double
+        conduct double
+        epaisseur double
+        orientation array 
+    end
+    
+    methods
+        function obj=mur(position,perm_rel,conduct,epaisseur,orientation)
+            obj.position=position;
+            obj.perm_rel=perm-rel;
+            obj.conduct=conduc;
+        end
+        function orientation=orienter(mur)
+             orientation=[mur.position(1,1)-mur.position(2,1),mur.position(1,2)-mur.position(2,2)]
+        end
+    end
+end
+

@@ -1,0 +1,21 @@
+classdef recepteur
+    %RECEPTEUR Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties
+        position array
+    end
+    
+    methods
+        %là c'est n'importe quoi il faut que je fasse
+        function champ_E = recepteur(rayon)
+            %expression sans les coeff
+            champ_E=
+            
+            %boucle qui multiplie l'expression du haut par tous les coeff
+            %d'une liste (qu'il faudra créer avec tous les coeff calculés
+            %da
+        end
+    end
+end
+
